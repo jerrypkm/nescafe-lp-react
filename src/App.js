@@ -29,12 +29,12 @@ class App extends React.Component{
         <main className="l-main">
           <SectionHome/>
           <EnterName onChange={this.handleChange} name={this.state.name}/>
-          <SectionAbout/>
-          <SectionVideo/>
-          <SectionStories/>
+          <SectionAbout name={this.state.name}/>
+          <SectionVideo name={this.state.name}/>
+          <SectionStories name={this.state.name}/>
           <SectionProducts/>
-          <SectionFaq/>
-          <SectionContact/>
+          <SectionFaq name={this.state.name}/>
+          <SectionContact onChange={this.handleChange} name={this.state.name}/>
         </main>
         <Footer/>
     </React.Fragment> 

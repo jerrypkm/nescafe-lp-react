@@ -57,7 +57,7 @@ class SectionFaq extends React.Component{
                                                 alt=""/></figure>
                                     </div>
                                     <div className="media-content">
-                                        <h3 className="title is-4">¿LLegan a mi código postal?</h3>
+                                        <h3 className="title is-4">¿Llegan a mi código postal?</h3>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, et dolores
                                             tempore iusto numquam sunt necessitatibus placeat alias, at nemo repellat architecto
                                             blanditiis. Magnam animi voluptatem recusandae, dicta sed facilis?</p>
@@ -87,7 +87,7 @@ class SectionFaq extends React.Component{
                         </div>
                     </Fade>
                 </div>
-                <div className="buttons is-centered"><a className="button is-rounded" href="#comprar">Hacer una pregunta</a></div>
+                <div className="buttons is-centered"><a className="button is-rounded buy__button    " href="#comprar">Hacer una pregunta</a></div>
             </div>
         </section>
     }

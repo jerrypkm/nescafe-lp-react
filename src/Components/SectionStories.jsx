@@ -12,7 +12,7 @@ class SectionStories extends React.Component{
                             café</h2>
                         </Fade>
                         <Fade top delay={800}>
-                            <p className="subtitle is-4 is-size-5-mobile has-text-centered modal__text">Descubre los sabores del mundo desde casa
+                            <p className="subtitle is-4 is-size-5-mobile has-text-centered modal__text">Hey {this.props.name+","} descubre los sabores del mundo desde casa
                                 con tu
                                 <strong> Dolce
                                     Gusto Genio</strong>.

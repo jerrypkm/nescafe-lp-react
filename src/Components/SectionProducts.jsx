@@ -11,14 +11,14 @@ import Product6 from '../images/work6.jpg'
 class SectionProducts extends React.Component{
     render(){
         return <section className="portfolio section" id="products">
-            <h2 className="section-title">Products</h2>
+            <h2 className="section-title">Productos</h2>
             <div className="portfolio__container bd-grid">
                 <Fade top delay={200}>
                     <div className="portfolio__img">
                         <img src={Product1} alt=""/>
 
                         <div className="portfolio__link">
-                            <a href="#" className="portfolio__link-name">View details</a>
+                            <a href="#" className="portfolio__link-name">Ver detalles</a>
                         </div>
                     </div>
                 </Fade>
@@ -27,7 +27,7 @@ class SectionProducts extends React.Component{
                         <img src={Product2} alt=""/>
 
                         <div className="portfolio__link">
-                            <a href="#" className="portfolio__link-name">View details</a>
+                            <a href="#" className="portfolio__link-name">Ver detalles</a>
                         </div>
                     </div>
                 </Fade>
@@ -36,7 +36,7 @@ class SectionProducts extends React.Component{
                         <img src={Product3} alt=""/>
 
                         <div className="portfolio__link">
-                            <a href="#" className="portfolio__link-name">View details</a>
+                            <a href="#" className="portfolio__link-name">Ver detalles</a>
                         </div>
                     </div>
                 </Fade>
@@ -45,7 +45,7 @@ class SectionProducts extends React.Component{
                         <img src={Product4} alt=""/>
 
                         <div className="portfolio__link">
-                            <a href="#" className="portfolio__link-name">View details</a>
+                            <a href="#" className="portfolio__link-name">Ver detalles</a>
                         </div>
                     </div>
                 </Fade>
@@ -54,7 +54,7 @@ class SectionProducts extends React.Component{
                         <img src={Product5} alt=""/>
 
                         <div className="portfolio__link">
-                            <a href="#" className="portfolio__link-name">View details</a>
+                            <a href="#" className="portfolio__link-name">Ver detalles</a>
                         </div>
                     </div>
                 </Fade>
@@ -63,7 +63,7 @@ class SectionProducts extends React.Component{
                         <img src={Product6} alt=""/>
 
                         <div className="portfolio__link">
-                            <a href="#" className="portfolio__link-name">View details</a>
+                            <a href="#" className="portfolio__link-name">Ver detalles</a>
                         </div>
                     </div>
                 </Fade>

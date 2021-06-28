@@ -161,7 +161,7 @@ img {
   color: var(--white-color);
 }
 .logo {
-  width: 30%;
+  width: 20%;
   margin-top: -10px;
 }
 .nav__toggle {
@@ -286,12 +286,16 @@ img {
 .about__social-icon:hover {
   color: var(--first-color);
 }
+.buy__button {
+  border-color: #a61b1b;
+}
 
 /* ===== VIDEO ===== */
 .hero__main {
   background-color: #a61b1b;
 }
 .video__title {
+  font-weight: 100 !important;
   color: #f3f3f3 !important;
 }
 .video__text {
@@ -540,7 +544,7 @@ img {
     color: white;
   }
   .logo {
-    width: 40%;
+    width: 25%;
     margin-top: -10px;
   }
   .home__container {

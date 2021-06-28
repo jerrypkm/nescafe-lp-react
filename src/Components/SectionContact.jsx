@@ -2,6 +2,7 @@ import React from 'react'
 import Fade from 'react-reveal/Fade'
 
 class SectionContact extends React.Component{
+
     render(){
         return <section className="contact section" id="contact">
             <h2 className="section-title">Contact</h2>
@@ -12,26 +13,26 @@ class SectionContact extends React.Component{
                         <h3 className="contact__subtitle">EMAIL</h3>
                     </Fade>
                     <Fade top delay={200}>
-                        <span className="contact__text">info.mail.com</span>
+                        <span className="contact__text">info@wortev.com</span>
                     </Fade>
                     <Fade top>
-                        <h3 className="contact__subtitle">PHONE</h3>
+                        <h3 className="contact__subtitle">TELÉFONO</h3>
                     </Fade>
                     <Fade top delay={200}>
                         <span className="contact__text">+20 999-999</span>
                     </Fade>
                     <Fade top>
-                        <h3 className="contact__subtitle">ADRESS</h3>
+                        <h3 className="contact__subtitle">DIRECCION</h3>
                     </Fade>
                     <Fade top delay={200}>
-                        <span className="contact__text">My contry</span>
+                        <span className="contact__text">My dirección</span>
                     </Fade>
                 </div>
 
                 <form action="" className="contact__form">
                     <Fade top delay={400}>
                         <div className="contact__inputs">
-                            <input type="text" placeholder="Name" className="contact__input"/>
+                            <input type="text" placeholder="Name" name="name" className="contact__input" value={this.props.name} onChange={this.props.onChange}/>
                             <input type="mail" placeholder="Email" className="contact__input"/>
                         </div>
                         <textarea name="" id="" cols="0" rows="10" className="contact__input"></textarea>

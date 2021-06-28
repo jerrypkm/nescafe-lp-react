@@ -14,8 +14,7 @@ class SectionVideo extends React.Component{
                         <Fade top delay={600}>
                         <p className="subtitle is-size-6-mobile video__text video__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum
                             sapiente
-                            quibusdam commodi maiores, illo dolore minus nesciunt natus? Molestiae repudiandae architecto
-                            sequi consectetur, accusamus quis dignissimos qui eius vero omnis.</p>
+                            quibusdam commodi maiores, illo dolore minus nesciunt natus?</p>
                         </Fade>
                     </div>
                 </div>
