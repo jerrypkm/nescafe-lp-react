@@ -407,24 +407,26 @@ img {
 
 /* ===== FOOTER=====*/
 .footer {
-  background-color: var(--dark-color);
+  background-color: whitesmoke;
 }
 .footer__container {
   row-gap: 2rem;
 }
 .footer__title {
   font-size: var(--normal-font-size);
-  color: var(--white-color);
+  color: var(--dark-color);
   margin-bottom: var(--mb-2);
 }
 .footer__link {
   padding: 0.25rem 0;
+  color: #a61b1b;
 }
 .footer__link:hover {
   color: var(--first-color);
 }
 .footer__social {
   font-size: 1.4rem;
+  color: #a61b1b;
   margin-right: var(--mb-1);
 }
 .footer__social:hover {
@@ -468,7 +470,7 @@ img {
     display: none;
   }
   .nav__link {
-    color: #4a4a4a;
+    color: white;
   }
   .nav__link:hover {
     color: var(--white-color);

@@ -6,7 +6,7 @@ class SectionContact extends React.Component{
     render(){
         return <section className="contact section" id="contact">
             <h2 className="section-title">Contact</h2>
-
+            <p className="subtitle is-4 is-size-5-mobile has-text-centered modal__text">¡{this.props.name} déjanos conocerte más a fondo, completa tus datos !</p>
             <div className="contact__container bd-grid">
                 <div className="contact__info">
                     <Fade top>

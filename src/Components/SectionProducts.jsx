@@ -12,6 +12,7 @@ class SectionProducts extends React.Component{
     render(){
         return <section className="portfolio section" id="products">
             <h2 className="section-title">Productos</h2>
+            <p className="subtitle is-4 is-size-5-mobile has-text-centered modal__text">Productos especialmente seleccionados para {" ti "+this.props.name}</p>
             <div className="portfolio__container bd-grid">
                 <Fade top delay={200}>
                     <div className="portfolio__img">

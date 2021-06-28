@@ -32,7 +32,7 @@ class App extends React.Component{
           <SectionAbout name={this.state.name}/>
           <SectionVideo name={this.state.name}/>
           <SectionStories name={this.state.name}/>
-          <SectionProducts/>
+          <SectionProducts name={this.state.name}/>
           <SectionFaq name={this.state.name}/>
           <SectionContact onChange={this.handleChange} name={this.state.name}/>
         </main>

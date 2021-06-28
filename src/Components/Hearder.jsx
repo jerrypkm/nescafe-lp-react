@@ -13,10 +13,10 @@ class Header extends React.Component{
                 <div className="nav__menu" id="nav-menu">
                     <ul className="nav__list">
                         <li className="nav__item"><a href="#home" className="nav__link active">Home</a></li>
-                        <li className="nav__item"><a href="#about" className="nav__link">About</a></li>
-                        <li className="nav__item"><a href="#storys" className="nav__link">Storys</a></li>
-                        <li className="nav__item"><a href="#products" className="nav__link">Products</a></li>
-                        <li className="nav__item"><a href="#contact" className="nav__link">Contact</a></li>
+                        <li className="nav__item"><a href="#about" className="nav__link">Nuevo</a></li>
+                        <li className="nav__item"><a href="#stories" className="nav__link">Historias</a></li>
+                        <li className="nav__item"><a href="#products" className="nav__link">Productos</a></li>
+                        <li className="nav__item"><a href="#contact" className="nav__link">Contacto</a></li>
                     </ul>
                 </div>
 

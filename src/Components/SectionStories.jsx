@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade'
 class SectionStories extends React.Component{
     render(){
         return <React.Fragment>
-            <section id="storys" className="hero is-small">
+            <section id="stories" className="hero is-small">
                 <div className="hero-body">
                     <div className="content is-medium">
                         <Fade top delay={400}>

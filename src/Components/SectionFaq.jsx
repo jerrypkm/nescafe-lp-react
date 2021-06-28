@@ -5,7 +5,8 @@ class SectionFaq extends React.Component{
     render(){
         return <section className="section">
             <div className="container py-4">
-                <h2 className="title is-size-3-mobile has-text-centered mb-6 faq__title">Preguntas Frecuentes</h2>
+                <h2 className="section-title">FAQ</h2>
+                <p className="subtitle is-4 is-size-5-mobile has-text-centered modal__text">Oye {this.props.name+", "} estas son algunas de las dudas más frecuentes que te pueden surgir</p>
                 <div className="mb-6">
                     <Fade top delay={400}>
                     <div className="card block faq__1">
