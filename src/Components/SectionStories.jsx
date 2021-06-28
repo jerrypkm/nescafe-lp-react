@@ -6,9 +6,9 @@ class SectionStories extends React.Component{
         return <React.Fragment>
             <section id="stories" className="hero is-small">
                 <div className="hero-body">
-                    <div className="content is-medium">
+                    <div className="is-medium">
                         <Fade top delay={400}>
-                            <h2 className="title is-size-1-desktop is-size-3-mobile is-spaced has-text-centered modal__title">Historias con olor a
+                            <h2 className="section-title modal__title">Historias con olor a
                             café</h2>
                         </Fade>
                         <Fade top delay={800}>

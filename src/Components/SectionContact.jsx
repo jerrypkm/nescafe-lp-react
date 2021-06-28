@@ -38,7 +38,7 @@ class SectionContact extends React.Component{
                         <textarea name="" id="" cols="0" rows="10" className="contact__input"></textarea>
                     </Fade>
                     <Fade top delay={600}>
-                        <input type="submit" value="Enviar" className="contact__button"/>
+                        <input type="submit" value="Enviar" className="button is-rounded buttons send__button"/>
                     </Fade>
                 </form>
             </div>

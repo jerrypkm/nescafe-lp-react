@@ -1,5 +1,6 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 /*===== VARIABLES CSS =====*/
 :root {
@@ -90,9 +91,11 @@ img {
 }
 .section-title {
   position: relative;
-  font-size: var(--h2-font-size);
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 300 !important;
+  font-size: var(--h2-font-size) !important ;
   color: var(--dark-color);
-  margin: var(--mb-4) 0;
+  margin: var(--mb-4) 0 !important;
   text-align: center;
 }
 .section-title::after {
@@ -301,6 +304,9 @@ img {
 .buy__button {
   border-color: #a61b1b;
 }
+.send__button {
+  border-color: #a61b1b;
+}
 
 /* ===== VIDEO ===== */
 .hero__main {
@@ -416,6 +422,7 @@ img {
   outline: none;
   font-size: var(--normal-font-size);
   cursor: pointer;
+  border-color: #a61b1b;
 }
 
 /* ===== FOOTER=====*/
