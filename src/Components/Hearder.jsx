@@ -1,12 +1,12 @@
 import React from 'react'
-import Logo from '../images/logo.jpg'
+import Logo from '../images/logo.png'
 
 class Header extends React.Component{
     render(){
         return <header className="l-header">
             <nav className="nav bd-grid">
                 <div>
-                    <a href="#" className="nav__logo">Nescafé</a>
+                    <a href="#" className="nav__logo">  </a>
                     <a title="hola" href="https://www.facebook.com/wortev/"><img className="logo" src={Logo} alt=""/></a>
                 </div>
 

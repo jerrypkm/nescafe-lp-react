@@ -10,7 +10,7 @@ class EnterName extends React.Component{
                 onChange={this.props.onChange}
                 value={this.props.name} 
                 className="name__input" 
-                name="fname">
+                name="name">
             </input>
             <label className="name__label2">, queremos mostrarte algo extraordinario</label>
         </div>

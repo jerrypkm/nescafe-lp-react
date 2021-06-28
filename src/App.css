@@ -118,6 +118,7 @@ img {
   margin-right: var(--mb-2);
 }
 .l-header {
+  background-color: black !important;
   width: 100%;
   position: fixed;
   top: 0;
@@ -161,7 +162,7 @@ img {
 }
 .logo {
   width: 30%;
-  margin-top: -40px;
+  margin-top: -10px;
 }
 .nav__toggle {
   color: var(--white-color);
@@ -540,7 +541,7 @@ img {
   }
   .logo {
     width: 40%;
-    margin-top: -40px;
+    margin-top: -10px;
   }
   .home__container {
     height: 640px;
