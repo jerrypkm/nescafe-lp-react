@@ -107,6 +107,16 @@ img {
   background-color: var(--first-color);
 }
 
+.name__label1 {
+  font-size: var(--normal-font-size);
+  margin-left: 5em;
+  color: white;
+}
+.name__label2 {
+  font-size: var(--normal-font-size);
+  color: white;
+}
+
 /*===== LAYOUT =====*/
 .bd-grid {
   max-width: 1024px;
@@ -225,7 +235,7 @@ img {
 
 /* ===== NAME =====*/
 .name__input {
-  width: 15%;
+  width: 25%;
   padding: 0.8rem;
   border: 1.5px solid var(--dark-color);
   font-size: var(--med-font-size);
@@ -242,10 +252,12 @@ img {
   font-size: var(--med-font-size);
   margin-left: 5em;
   color: white;
+  justify-content: center;
 }
 .name__label2 {
   font-size: var(--med-font-size);
   color: white;
+  justify-content: center;
 }
 
 /* ===== ABOUT =====*/
