@@ -22,7 +22,7 @@ class SectionVideo extends React.Component{
         </section>
 
         <section>
-            <iframe width="100%" height="560px" src="https://www.youtube.com/embed/KbYXowf06nw">
+            <iframe title="video" width="100%" height="560px" src="https://www.youtube.com/embed/KbYXowf06nw">
             </iframe>
         </section>
     </React.Fragment>

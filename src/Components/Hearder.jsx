@@ -2,6 +2,13 @@ import React from 'react'
 import Logo from '../images/logo.png'
 
 class Header extends React.Component{
+
+    /*===== MENU SHOW =====*/ 
+    handleClick = e =>{
+        const nav = document.getElementById("nav-menu");
+        nav.classList.toggle('show');
+    }
+
     render(){
         return <header className="l-header">
             <nav className="nav bd-grid">
@@ -20,7 +27,7 @@ class Header extends React.Component{
                     </ul>
                 </div>
 
-                <div className="nav__toggle" id="nav-toggle">
+                <div className="nav__toggle" id="nav-toggle" onClick={this.handleClick}>
                     <i className='bx bx-menu'></i>
                 </div>
             </nav>
